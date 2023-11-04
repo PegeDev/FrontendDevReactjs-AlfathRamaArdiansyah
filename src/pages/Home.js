@@ -68,6 +68,7 @@ export default function Home({ children }) {
         const qs = {
           location_id: "297705",
           limit: "30",
+          currency: "USD",
         };
         setLoading(true);
         const { data } = await axios(
